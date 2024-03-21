@@ -16,7 +16,7 @@ export function AddColor() {
           style={style} type="text" />
         <button onClick={() => setColorList([...colorList, color])}>Add Color</button>
       </div>
-      {colorList.map((clr) => {
+      {colorList.map((clr) => { 
         return <ColorBox color={clr} />;
       }
       )}
